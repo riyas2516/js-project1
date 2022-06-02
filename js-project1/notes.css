@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-container{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+/* .nav-container img{
+    margin: 0 20px;
+} */
+.fa-bars{
+    margin-left: 25px;
+}
+#logo{
+    margin:10px 15px 0 20px;
+}
+.nav-container p{
+    margin: 10px 100px 0 0; 
+    font-size: 22px;
+    font-family: "Product Sans",Arial,sans-serif;
+    /* font-weight: ; */
+    color:rgb(95, 99, 104);
+
+}
+input[type=search]{
+    width: 720px;
+    height: 50px;
+    margin-top: 15px;
+}
+.fa-arrow-rotate-right{
+    margin:20px 25px 0 100px;
+    color: rgb(95, 99, 104);
+    /* width: 30px;
+    height: 30px; */
+}
+.fa-list-ol{
+    margin: 20px 25px 0 0;
+    color: rgb(95, 99, 104);
+}
+.fa-gear{
+    margin: 20px 100px 0 0;
+    color: rgb(95, 99, 104);
+}
+#profile{
+    margin-top: 15px;
+    border-radius: 50%;
+}
+.side-bar{
+    position: fixed;
+    /* top: 0; */
+    /* left: -300px; */
+    width: 260px;
+    height: 100vh;
+    background-color:white;
+
+}
+.side-bar button{
+    width: 100%;
+    text-align: start;
+    padding: 12px 0 12px 30px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: white;
+}
+.side-bar i{
+    margin-right: 20px;
+}
+.side-bar .bar1{
+    background-color: bisque;
+}
+.side-bar .bar:hover{
+    background-color: gainsboro;
+}
+.text textarea{
+    /* color: white;  */
+    /* background-color: black; */
+    width: 600px;
+    height: 50px;
+    margin-left: 500px;
+    border-radius: 10px;
+    border-style: none;
+}
+.form-floating{
+    margin-left: 400px;
+    width: 500px;
+    height: 60px;
+}
